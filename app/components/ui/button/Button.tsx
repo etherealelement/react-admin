@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { ButtonProps } from "./Button.props";
 import cn from "classnames";
-import { defaultButton, smallButton } from "./Styles";
+import { defaultButton, mediumButton, smallButton } from "./Styles";
 import IconSubs from "../../../../public/images/icon-subs.svg"
 import Image from "next/image";
 import IconUser from "../../../../public/images/icon_user.svg";
@@ -22,6 +22,7 @@ export const Button: FC<ButtonProps> = ({
 			<button
 				className={cn(defaultButton, className, {
 					[smallButton] : size === "small",
+					[mediumButton]: size === "medium",
 								
 				})}
 				{...props}

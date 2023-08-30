@@ -4,7 +4,7 @@ import { Button } from './components/ui/button/Button'
 export default function Home() {
   return (
     <>
-    <Button size='small'>Change plan</Button>
+    <Button size='default'>Change plan</Button>
     </>
   )
 }
