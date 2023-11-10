@@ -1,0 +1,1 @@
+export const CloseBtnStyle: string = "p-[13px] border-2  rounded-[50%] bg-[#FFF] border-[#808080] cursor-pointer"
