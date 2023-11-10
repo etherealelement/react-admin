@@ -19,6 +19,7 @@ export const Input: FC<InputProps> = ({
 	className,
 	...props
 }: InputProps): JSX.Element => {
+	
 	return (
 		<>
 			<div className={inputWrapper}>
